@@ -1,21 +1,43 @@
 aid: sk-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sk-ventures.png
 name: SK Ventures
-description: 'SK Ventures is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'SK Ventures is a seed-stage venture capital firm run by general partners Paul Kedrosky and Eric Norlin that backs science-driven founders who are deep domain experts in their startup''s field. The firm invests around themes surfaced through the founders'' technology conferences (Defrag, Glue) — identity, software infrastructure, security, and emerging technologies — providing early capital, practical guidance, connections, and pathways to later funding rounds. Its portfolio spans 50+ companies including Blockstream, Wealthfront, Rachio, Sphero, Premise, FullContact, and Klue, with notable exits including FanDuel, Remitly, Cloudability, and Kinvey. Surfaced as a portfolio company of foundry-group and profiled in the API Evangelist network; SK Ventures publishes a marketing website but no public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sk-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - foundry-group
-x-tier: stub
+x-tier: profile
 x-tier-reason: portfolio-lead
+x-firm:
+  type: venture-capital
+  stage: seed
+  general-partners:
+  - Paul Kedrosky
+  - Eric Norlin
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Venture Capital
+- Investors
+- Seed Stage
+- Startups
+- Technology
+- Infrastructure
+- Identity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sk-ventures-domain-security.yml
 - type: Website
   url: https://skvcap.com
+- type: Blog
+  url: https://skvcap.com/#blog-video
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
