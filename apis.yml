@@ -25,6 +25,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sk-venture
 name: SK Ventures
 description: 'SK Ventures is a seed-stage venture capital firm run by general partners Paul Kedrosky and Eric Norlin that backs science-driven founders who are deep domain experts in their startup''s field. The firm invests around themes surfaced through the founders'' technology conferences (Defrag, Glue) — identity, software infrastructure, security, and emerging technologies — providing early capital, practical guidance, connections, and pathways to later funding rounds. Its portfolio spans 50+ companies including Blockstream, Wealthfront, Rachio, Sphero, Premise, FullContact, and Klue, with notable exits including FanDuel, Remitly, Cloudability, and Kinvey. Surfaced as a portfolio company of foundry-group and profiled in the API Evangelist network; SK Ventures publishes a marketing website but no public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sk-ventures/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Surfaced as a portfolio company of foundry-group and profiled in the API Evangelist network; SK Ventures publishes a marketing website but no public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
